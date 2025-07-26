@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+  padding: 20px;
+  background-color: #222;
+  color: white;
+  min-height: 100vh;
+}
+
+.sudoku-grid {
+  display: grid;
+  grid-template-columns: repeat(9, 40px);
+  grid-gap: 2px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.sudoku-cell {
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  text-align: center;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #999;
+}
+
+.buttons button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.invalid {
+  background-color: #ffb3b3;
+  border: 2px solid red;
+}
