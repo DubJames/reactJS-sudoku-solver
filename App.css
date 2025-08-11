@@ -1,0 +1,108 @@
+.App {
+  text-align: center;
+  padding: 20px;
+  background-color: #222;
+  color: white;
+  min-height: 100vh;
+}
+
+.sudoku-grid {
+  display: grid;
+  grid-template-columns: repeat(9, 40px);
+  grid-gap: 2px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.sudoku-cell:nth-child(3),
+.sudoku-cell:nth-child(6),
+.sudoku-cell:nth-child(9),
+.sudoku-cell:nth-child(12),
+.sudoku-cell:nth-child(15),
+.sudoku-cell:nth-child(18),
+.sudoku-cell:nth-child(21),
+.sudoku-cell:nth-child(24),
+.sudoku-cell:nth-child(27),
+.sudoku-cell:nth-child(30),
+.sudoku-cell:nth-child(33),
+.sudoku-cell:nth-child(36),
+.sudoku-cell:nth-child(39),
+.sudoku-cell:nth-child(42),
+.sudoku-cell:nth-child(45),
+.sudoku-cell:nth-child(48),
+.sudoku-cell:nth-child(51),
+.sudoku-cell:nth-child(54),
+.sudoku-cell:nth-child(57),
+.sudoku-cell:nth-child(60),
+.sudoku-cell:nth-child(63),
+.sudoku-cell:nth-child(66),
+.sudoku-cell:nth-child(69),
+.sudoku-cell:nth-child(72),
+.sudoku-cell:nth-child(75),
+.sudoku-cell:nth-child(78),
+.sudoku-cell:nth-child(81)
+ {
+  width: 34px !important;
+ }
+.sudoku-cell:nth-child(19),
+.sudoku-cell:nth-child(20),
+.sudoku-cell:nth-child(21),
+.sudoku-cell:nth-child(22),
+.sudoku-cell:nth-child(23),
+.sudoku-cell:nth-child(24),
+.sudoku-cell:nth-child(25),
+.sudoku-cell:nth-child(26),
+.sudoku-cell:nth-child(27),
+.sudoku-cell:nth-child(46),
+.sudoku-cell:nth-child(47),
+.sudoku-cell:nth-child(48),
+.sudoku-cell:nth-child(49),
+.sudoku-cell:nth-child(50),
+.sudoku-cell:nth-child(51),
+.sudoku-cell:nth-child(52),
+.sudoku-cell:nth-child(53),
+.sudoku-cell:nth-child(54)
+ {
+  border-bottom: 1.5px solid !important;
+}
+
+.sudoku-cell {
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  text-align: center;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #999;
+}
+
+.buttons button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.invalid {
+  background-color: #ffb3b3;
+  border: 2px solid red;
+}
+
+.invalid {
+  background-color: #ffb3b3;
+  border: 2px solid red;
+}
+
+.highlighted {
+  background-color: #b3ffb3;
+}
+
+.controls {
+  margin-top: 20px;
+}
+
+textarea {
+  margin-top: 10px;
+  font-size: 14px;
+  padding: 8px;
+  resize: none;
+}
