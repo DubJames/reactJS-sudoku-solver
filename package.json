@@ -24,6 +24,7 @@
       "react-app/jest"
     ]
   },
+  "homepage": "https://wwww.willjames.biz/apps/sudokuSolver",
   "browserslist": {
     "production": [
       ">0.2%",
